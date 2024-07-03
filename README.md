@@ -1,4 +1,4 @@
-# 2024-kakaotech-bootcamp-basic-front-end-projects
+# 2024-kakaotech-bootcamp-basic-projects
 Basic projects for learning.
 
 - HTML/CSS를 사용하여 깔끔한 이력서 웹 페이지를 디자인하고 구조화
