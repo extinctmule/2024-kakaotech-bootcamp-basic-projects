@@ -1,0 +1,41 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1em;
+  color: lightslategray;
+  text-align: center;
+  margin-top: 50px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e7f2f3;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none; /*기본 ul용 기호 지웠음*/
+  padding-left: 0;
+  align-items: center;
+}
+
+/*TodoItem 부분*/
+li {
+  list-style-type: none;
+  margin-bottom: 10px;
+  display: box;
+  align-items: center;
+}
+input[type="text"] {
+  width: 250px;
+  padding: 5px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  border: 1px solid lightgrey;
+  font-size: 16px;
+}
