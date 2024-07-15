@@ -15,7 +15,7 @@
 
 ```bash
 git clone https://github.com/extinctmule/2024-kakaotech-bootcamp-basic-projects.git
-cd 2024-kakaotech-bootcamp-basic-projects/react-todo-list
+cd 2024-kakaotech-bootcamp-basic-projects/react-todolist
 ```
 
 ### 2. 프로젝트 설정
