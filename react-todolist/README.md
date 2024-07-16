@@ -21,6 +21,7 @@ cd 2024-kakaotech-bootcamp-basic-projects/react-todolist
 ### 2. 프로젝트 설정
 
 npm install
+
 npm run dev
 
 Vite에게 할당받은 포트넘버대로 주소를 브라우저에 입력하면, 프로그램을 사용할 수 있다.
