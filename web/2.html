@@ -10,7 +10,26 @@
     <!--이거는 효과만 적혀있고 누구한테 지정할지를 설명할 수 없기에 (대상) {  }) 코드가 필요한것.-->
     <!--이러한 코드를, 이 웹페이지에서 주고 싶은 효과를 누구에게 줄 것인가를 선택한다는 점에서 선택자(selector)라고 함-->
     <!--정확히 말하면 a부분이 선택자(selector), color이 속성(property), red가 값(value)-->
+    <link
+      rel="preconnect"
+      href="https://statics.goorm.io"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      as="style"
+      crossorigin
+      href="https://statics.goorm.io/fonts/GoormSans/v1.0.0/GoormSans.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://statics.goorm.io/fonts/GoormSans/v1.0.0/GoormSans.min.css"
+    />
+
     <style>
+      body {
+        font-family: "Goorm Sans", sans-serif;
+      }
       a {
         color: black;
         text-decoration: none;
@@ -27,12 +46,6 @@
         text-align: center;
       }
     </style>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap"
-      rel="stylesheet"
-    />
   </head>
   <body>
     <h1><a href="index.html">WEB</a></h1>
