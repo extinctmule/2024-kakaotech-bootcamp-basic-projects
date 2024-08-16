@@ -1,8 +1,32 @@
-<!DOCTTYPE HTML>
+<!--웹 페이지에 안에 CSS를 삽입하는 두 가지 방법: 1.<style>태그를 쓴다 2. HTML의 style 속성을 쓴다.-->
+<!-- 선택자 우선순위: #id, .class, <>tag 순으로 높다.>-->
+<!--같은 형태의 선택자라면 마지막에 등장하는게 우선순위가 높다-->
+<!DOCTYPE html>
 <html>
   <head>
     <title>WEB1 - CSS</title>
     <meta charset="utf-8" />
+
+    <!--이거는 효과만 적혀있고 누구한테 지정할지를 설명할 수 없기에 (대상) {  }) 코드가 필요한것.-->
+    <!--이러한 코드를, 이 웹페이지에서 주고 싶은 효과를 누구에게 줄 것인가를 선택한다는 점에서 선택자(selector)라고 함-->
+    <!--정확히 말하면 a부분이 선택자(selector), color이 속성(property), red가 값(value)-->
+    <style>
+      a {
+        color: black;
+        text-decoration: none;
+      }
+      #active {
+        color: red;
+      }
+      .saw {
+        color: grey;
+      }
+
+      h1 {
+        font-size: 45px;
+        text-align: center;
+      }
+    </style>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,8 +37,13 @@
   <body>
     <h1><a href="index.html">WEB</a></h1>
     <ol>
-      <li><a href="1.html">HTML</a></li>
-      <li><a href="2.html">CSS</a></li>
+      <li><a href="1.html" class="saw">HTML</a></li>
+      <li>
+        <a href="2.html" class="saw" id="active">CSS</a>
+        <!--<a href="2.html" style="color:red; text-decoration:underline;">-->
+        <!--처럼, style 하나의 선택자에 대해 여러 개의 효과를 지정할 때는 그걸 세미콜론으로 구분하면 됨-->
+      </li>
+      <!--이 style=""는 HTML의 속성.이 속성을 쓰면 이 속성의 값을 웹 브라우저가 CSS문법에 따라 해석해서, 그 결과를 style속성이 위치한 태그에 적용.-->
       <li><a href="3.html">JavaScript</a></li>
     </ol>
 
